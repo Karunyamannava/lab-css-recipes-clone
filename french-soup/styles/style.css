@@ -7,3 +7,46 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.body{
+  padding:30px;
+}
+.onion{
+  background-image: url("../images/soup.jpg");
+  background-size: cover; /* Cover the entire div */
+  text-align: center;
+  color: white; /* Change text color to white */
+  font-size: 60px; /* Increase text size */
+  padding: 30px;
+  border: 20px;
+  position: relative;
+  height: 700px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.text{
+  font-size: 30px;
+  font-family:'Open Sans', sans-serif;
+  padding: 60px;
+}
+.center-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 80%; /* Adjust width as needed */
+}
+.custom-hr {
+  margin: 10px 0; /* Adjust margin length */
+  border: none;
+  height: 1px;
+
+  background-color: #5e5959; /* Change color if needed */
+}
+.Recipe{
+  font-size: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+  padding: 60px;
+ 
+}
